@@ -12,5 +12,5 @@ public abstract class FoodOrder {
         amount=amt;
         restaurantName=rName;
     }
-    abstract double calculateDeliveryCharges();
+    protected abstract double calculateDeliveryCharges();
 }
